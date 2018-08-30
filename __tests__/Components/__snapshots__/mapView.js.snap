@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> mapView Render mapView 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FCFCFC",
+        "borderRadius": 2,
+        "height": 38,
+        "justifyContent": "center",
+        "margin": 16,
+        "position": "absolute",
+        "right": 0,
+        "width": 38,
+        "zIndex": 2,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Icon
+        allowFontScaling={false}
+        name="gps-fixed"
+        size={12}
+        style={
+          Object {
+            "fontSize": 22,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#FFFDF4",
+        "flex": 1,
+      }
+    }
+  />
+</Component>
+`;
+
+exports[`Component >>> mapView Render mapView 2`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FCFCFC",
+        "borderRadius": 2,
+        "height": 38,
+        "justifyContent": "center",
+        "margin": 16,
+        "position": "absolute",
+        "right": 0,
+        "width": 38,
+        "zIndex": 2,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Icon
+        allowFontScaling={false}
+        name="gps-fixed"
+        size={12}
+        style={
+          Object {
+            "fontSize": 22,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#FFFDF4",
+        "flex": 1,
+      }
+    }
+  />
+</Component>
+`;
+
+exports[`Component >>> mapView errorEvent 1`] = `undefined`;
+
+exports[`Component >>> mapView errorEvent 2`] = `undefined`;
+
+exports[`Component >>> mapView renderLocationButton 1`] = `undefined`;
+
+exports[`Component >>> mapView renderMap 1`] = `undefined`;

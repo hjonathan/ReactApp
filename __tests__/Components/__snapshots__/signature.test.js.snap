@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> Signature Render Signature 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 5,
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "borderBottomWidth": 2,
+        "borderColor": "#BABABA",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "margin": 4,
+        }
+      }
+    >
+      <Button
+        color="#BABABA"
+        onPress={[Function]}
+        title="signature_cancel"
+      />
+    </Component>
+    <Component
+      style={
+        Object {
+          "margin": 4,
+        }
+      }
+    >
+      <Button
+        color="#BABABA"
+        onPress={[Function]}
+        title="signature_clear"
+      />
+    </Component>
+    <Component
+      style={
+        Object {
+          "margin": 4,
+        }
+      }
+    >
+      <Button
+        color="#BABABA"
+        disabled={true}
+        onPress={[Function]}
+        title="signature_save"
+      />
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <SignatureCapture
+      maxStrokeWidth={8}
+      minStrokeWidth={4}
+      onDragEvent={[Function]}
+      onSaveEvent={[Function]}
+      saveImageFileInExtStorage={true}
+      showNativeButtons={false}
+      showTitleLabel={true}
+      style={
+        Object {
+          "borderColor": "#3397E1",
+          "borderWidth": 1,
+          "flex": 1,
+          "height": null,
+          "width": null,
+        }
+      }
+      viewMode="landscape"
+    />
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> Signature Signature test render 1`] = `undefined`;

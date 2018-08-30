@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of item assignment for list addUserId function 1`] = `undefined`;
+
+exports[`Test of item assignment for list render Item correctly 1`] = `
+<Component>
+  <Component>
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 14,
+            "marginHorizontal": "10%",
+            "textAlign": "center",
+          }
+        }
+      >
+        task_name_label_user_route_screen
+         
+        title_user_route_screen_end_of_process
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 14,
+            "marginHorizontal": "10%",
+            "textAlign": "center",
+          }
+        }
+      >
+        next_user_label_users_route_screen
+         
+        Test 0001
+      </Text>
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#BABABA",
+        "flex": 1,
+        "height": 1,
+        "marginHorizontal": 8,
+      }
+    }
+  />
+</Component>
+`;

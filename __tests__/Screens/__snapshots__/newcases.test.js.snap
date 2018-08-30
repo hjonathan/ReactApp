@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> New Cases Check static navigationOptions 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "padding": 8,
+    }
+  }
+>
+  <Icon
+    allowFontScaling={false}
+    name="search"
+    size={12}
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 24,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Screen >>> New Cases mapStateToProps 1`] = `
+Object {
+  "type": "cases/newcases/request",
+}
+`;
+
+exports[`Screen >>> New Cases mapStateToProps 2`] = `
+Object {
+  "type": "net/case/new",
+}
+`;
+
+exports[`Screen >>> New Cases render Case Information correctly 1`] = `
+<NewCases
+  caseOffline={[Function]}
+  isConnected={true}
+  newcases={
+    Object {
+      "response": Array [
+        Object {
+          "autoRoot": "FALSE",
+          "categoryName": "category 1",
+          "forms": Array [
+            Object {
+              "description": "",
+              "formId": "",
+              "formUpdateDate": "2018-01-18T00:23:52+00:00",
+              "index": 1,
+              "stepCondition": "",
+              "stepId": "",
+              "stepMode": "",
+              "stepPosition": 1,
+              "stepUidObj": "",
+              "title": "",
+              "triggers": Object {
+                "after": false,
+                "before": false,
+              },
+            },
+          ],
+          "offlineEnabled": "",
+          "processId": "12345",
+          "taskId": "123456",
+          "text": "test 1",
+        },
+        Object {
+          "autoRoot": "FALSE",
+          "categoryName": "category 2",
+          "forms": Array [
+            Object {
+              "description": "",
+              "formId": "",
+              "formUpdateDate": "2018-01-18T00:23:52+00:00",
+              "index": 1,
+              "stepCondition": "",
+              "stepId": "",
+              "stepMode": "",
+              "stepPosition": 1,
+              "stepUidObj": "",
+              "title": "",
+              "triggers": Object {
+                "after": false,
+                "before": false,
+              },
+            },
+          ],
+          "offlineEnabled": "TRUE",
+          "processId": "",
+          "taskId": "",
+          "text": "",
+        },
+      ],
+    }
+  }
+  requestNewCases={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> New Cases validator Reasigned Text 1`] = `
+<Component
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 617,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    noDataString
+  </Text>
+</Component>
+`;
+
+exports[`Screen >>> New Cases validator Reasigned Text 2`] = `
+<ItemNewList
+  parent={
+    Object {
+      "navigation": Object {
+        "setParams": [Function],
+        "state": Object {
+          "params": Object {
+            "handlerSearch": "",
+            "needsDisplay": true,
+          },
+        },
+      },
+      "requestNewCases": [Function],
+      "reset": [Function],
+      "setParams": [Function],
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    }
+  }
+/>
+`;

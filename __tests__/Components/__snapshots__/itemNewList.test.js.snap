@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of new item card for list goToFormRender function 1`] = `undefined`;
+
+exports[`Test of new item card for list render Item correctly 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={false}
+  onPress={[Function]}
+>
+  <Component
+    elevation={3}
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderColor": "#365173",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "flex": 1,
+        "margin": 3,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 2,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 6,
+          "flexDirection": "row",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../App/Assets/icons/newBlack.png",
+            }
+          }
+          style={
+            Object {
+              "height": 36,
+              "resizeMode": "contain",
+              "width": 36,
+            }
+          }
+        />
+      </Component>
+      <Component
+        style={
+          Object {
+            "paddingVertical": 13,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#000",
+              "paddingBottom": 3,
+            }
+          }
+        />
+      </Component>
+    </Component>
+  </Component>
+</TouchableOpacity>
+`;

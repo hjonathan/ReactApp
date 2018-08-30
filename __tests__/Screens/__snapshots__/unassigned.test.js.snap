@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Unassigned Check static navigationOptions 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <Icon
+    allowFontScaling={false}
+    name="bars"
+    size={12}
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 20,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Screen >>> Unassigned Render unassigned correctly 1`] = `
+<Unassigned
+  cases={
+    Object {
+      "unassigned": Array [
+        Object {
+          "prevUser": Object {
+            "userId": "00001",
+          },
+        },
+        Object {
+          "prevUser": Object {
+            "userId": "00002",
+          },
+        },
+      ],
+      "users": Array [
+        Object {
+          "userId": "00001",
+          "userPhoto": "picture1",
+        },
+        Object {
+          "userId": "00002",
+          "userPhoto": "picture2",
+        },
+      ],
+    }
+  }
+  isConnected={true}
+  list="Unassigned"
+  requestCasesUnassigned={[Function]}
+  reset={[Function]}
+  routeName={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  userInfoRequest={[Function]}
+/>
+`;
+
+exports[`Screen >>> Unassigned Should call goToNewCases method 1`] = `undefined`;
+
+exports[`Screen >>> Unassigned Should call onRefresh method 1`] = `undefined`;
+
+exports[`Screen >>> Unassigned Should call onRefresh method 2`] = `undefined`;
+
+exports[`Screen >>> Unassigned Should call onRefresh method 3`] = `undefined`;
+
+exports[`Screen >>> Unassigned Should call refresh method of FAB component 1`] = `undefined`;
+
+exports[`Screen >>> Unassigned Should call refresh method of FlatList component 1`] = `
+<ItemList
+  isConnected={true}
+  parent={
+    Object {
+      "isConnected": true,
+      "navigation": Object {
+        "dispatch": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "routeName": "NewCases",
+                "type": "Navigation/NAVIGATE",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "setParams": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "state": Object {
+          "params": Object {
+            "searchInput": null,
+          },
+          "routeName": "Draft",
+        },
+      },
+      "requestCasesUnassigned": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {
+              "search": "",
+            },
+          ],
+          Array [
+            Object {
+              "search": "abc",
+            },
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+      "reset": [MockFunction],
+      "routeName": [MockFunction] {
+        "calls": Array [
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "userInfoRequest": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "size": "1",
+              "user": Object {
+                "ids": Array [
+                  "00001",
+                  "00002",
+                ],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> Unassigned Should call refresh method of FlatList component 2`] = `undefined`;
+
+exports[`Screen >>> Unassigned mapStateToProps 1`] = `
+Object {
+  "type": "cases/unassigned/request",
+}
+`;
+
+exports[`Screen >>> Unassigned mapStateToProps 2`] = `
+Object {
+  "type": "cases/userInfo/request",
+}
+`;
+
+exports[`Screen >>> Unassigned mapStateToProps 3`] = `
+Object {
+  "type": "cases/routeName",
+}
+`;
+
+exports[`Screen >>> Unassigned mapStateToProps 4`] = `
+Object {
+  "type": "cases/reset",
+}
+`;

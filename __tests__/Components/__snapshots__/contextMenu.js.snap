@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> ContextMenu Render contextMenu 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "width": "70%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "height": 38,
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "textAlign": "center",
+            }
+          }
+        >
+          selectAudioDialogtitle
+        </Text>
+      </Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Icon
+          allowFontScaling={false}
+          name="clear"
+          size={12}
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 28,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "padding": 16,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "50%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="mic"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Component
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            selectAudioStringDialog
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "50%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="graphic-eq"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Component
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            selectGalleryStringAudioDialog
+          </Text>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> ContextMenu Render contextMenu 2`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "width": "70%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "height": 38,
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "textAlign": "center",
+            }
+          }
+        >
+          selectAudioDialogtitle
+        </Text>
+      </Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Icon
+          allowFontScaling={false}
+          name="clear"
+          size={12}
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 28,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "padding": 16,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "50%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="mic"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Component
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            selectAudioStringDialog
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "50%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="graphic-eq"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Component
+          style={
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            selectGalleryStringAudioDialog
+          </Text>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> ContextMenu Render galleryButton 1`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render galleryButton 2`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render onCloseMenu 1`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render onCloseMenu 2`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render renderHeader 1`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render takeButton 1`] = `undefined`;
+
+exports[`Component >>> ContextMenu Render takeButton 2`] = `undefined`;

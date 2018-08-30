@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ProcessMaker' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ProcessMaker
+    pod 'Google/SignIn'
+	
+
+  target 'ProcessMaker-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+    pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+    pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+    pod 'RNZipArchive', :path => '../node_modules/react-native-zip-archive'
+
+    pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+    pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
+  end
+
+  target 'ProcessMakerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

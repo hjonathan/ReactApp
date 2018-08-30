@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of new item card for list addUserId function 1`] = `undefined`;
+
+exports[`Test of new item card for list onValueChange function 1`] = `undefined`;
+
+exports[`Test of new item card for list render Item correctly 1`] = `
+<Component
+  elevation={3}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 14,
+        "marginHorizontal": "10%",
+        "textAlign": "center",
+      }
+    }
+  >
+    task_name_label_user_route_screen
+     
+  </Text>
+  <Component>
+    <Component>
+      <Picker
+        mode="dialog"
+        onValueChange={[Function]}
+        selectedValue="10000000/00000001"
+      >
+        <PickerItem
+          key="00000001"
+          label="Test 0001"
+          value="10000000/00000001"
+        />
+      </Picker>
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#BABABA",
+        "flex": 1,
+        "height": 1,
+        "marginHorizontal": 8,
+      }
+    }
+  />
+</Component>
+`;

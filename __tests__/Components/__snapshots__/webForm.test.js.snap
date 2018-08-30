@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Web form component componentDidUpdate 1`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 2`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 3`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 4`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 5`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 6`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 7`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 8`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 9`] = `undefined`;
+
+exports[`Test of Web form component componentDidUpdate 10`] = `undefined`;
+
+exports[`Test of Web form component componentWillReceiveProps 1`] = `undefined`;
+
+exports[`Test of Web form component mapStateToProps 1`] = `undefined`;
+
+exports[`Test of Web form component mapStateToProps 2`] = `undefined`;
+
+exports[`Test of Web form component mapStateToProps 3`] = `undefined`;
+
+exports[`Test of Web form component mapStateToProps 4`] = `undefined`;
+
+exports[`Test of Web form component onLoad function 1`] = `undefined`;
+
+exports[`Test of Web form component onLoad function 2`] = `undefined`;
+
+exports[`Test of Web form component onMessage function 1`] = `undefined`;
+
+exports[`Test of Web form component render Item correctly 1`] = `
+<WebForm
+  clearWebForm={[Function]}
+  errorNextStep={null}
+  fileVersions={
+    Object {
+      "appDocUid": "Doc000122",
+      "fieldID": "image1234",
+      "response": "[]",
+      "success": true,
+    }
+  }
+  finishLoadWebView={[Function]}
+  flowStatus=""
+  formDataPath=""
+  formPath=""
+  onMessage={[Function]}
+  spreadWebView={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  stepData=""
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`Test of Web form component render ref function 1`] = `undefined`;

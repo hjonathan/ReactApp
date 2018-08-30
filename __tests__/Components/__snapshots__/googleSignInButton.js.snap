@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> GoogleSignInButton Render CustomFlatButton 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "#FFFFFF",
+        "borderRadius": 50,
+        "borderWidth": 2,
+        "paddingHorizontal": 50,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      test
+    </Text>
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`Component >>> GoogleSignInButton Render DefaultFlatButton 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Object {
+        "paddingHorizontal": 14,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#4285F4",
+          "flexDirection": "row",
+          "height": 41,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../App/Assets/icons/googleSignIn/btn_google_dark_normal.png",
+          }
+        }
+        style={
+          Object {
+            "flexBasis": 41,
+            "flexGrow": 0,
+            "flexShrink": 0,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#f0fc",
+            },
+          ]
+        }
+      >
+        test
+      </Text>
+    </Component>
+  </Component>
+</TouchableOpacity>
+`;

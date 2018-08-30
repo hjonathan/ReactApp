@@ -1,0 +1,640 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Case Notes _onChangeNote 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes _populateNotes 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes Check static navigationOptions 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "padding": 8,
+    }
+  }
+>
+  <Icon
+    allowFontScaling={false}
+    name="add"
+    size={12}
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 24,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Screen >>> Case Notes Render Case Notes index 1`] = `
+<CaseNotes
+  caseNotes={
+    Object {
+      "app_uid": null,
+      "error": null,
+      "notes": Array [],
+      "users": Array [],
+    }
+  }
+  postCaseNote={[Function]}
+  requestCaseNotes={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  userInfoRequest={[Function]}
+  users={Array []}
+/>
+`;
+
+exports[`Screen >>> Case Notes Render Case Notes view 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "#2B6697",
+      "flex": 1,
+      "flexDirection": "row",
+      "paddingHorizontal": 20,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <FlatList
+    ListEmptyComponent={
+      <Component
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingTop": 617,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          case_notes_no_data
+        </Text>
+      </Component>
+    }
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <ReactNativeModal
+    animationIn="slideInUp"
+    animationInTiming={300}
+    animationOut="slideOutDown"
+    animationOutTiming={300}
+    avoidKeyboard={false}
+    backdropColor="black"
+    backdropOpacity={0.6}
+    backdropTransitionInTiming={300}
+    backdropTransitionOutTiming={300}
+    hideModalContentWhileAnimating={false}
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalShow={[Function]}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    useNativeDriver={false}
+  >
+    <Component
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 3,
+          "flex": 1,
+          "flexDirection": "column",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      />
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "padding": 16,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="note_hint_activity_case_notes_route_case_dialog"
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "gray",
+              "borderWidth": 1,
+              "flex": 1,
+              "textAlignVertical": "top",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+        <CheckBox
+          center={true}
+          checked={false}
+          checkedColor="#1FBC99"
+          checkedIcon="check-square"
+          containerStyle={
+            Object {
+              "backgroundColor": "white",
+              "borderWidth": 0,
+              "padding": 0,
+            }
+          }
+          iconRight={false}
+          onPress={[Function]}
+          right={false}
+          size={24}
+          textStyle={
+            Object {
+              "fontWeight": "normal",
+            }
+          }
+          title="note_send_mail_activity_case_notes_route_case_dialog"
+          uncheckedColor="#bfbfbf"
+          uncheckedIcon="square-o"
+        />
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CANCEL_ACTIVITY_CASE_NOTES_ROUTE_CASE_DIALOG
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              POST_ACTIVITY_CASE_NOTES_ROUTE_CASE_DIALOG
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+    <Toast
+      fadeInDuration={500}
+      fadeOutDuration={500}
+      opacity={1}
+      position="bottom"
+      positionValue={120}
+      style={
+        Object {
+          "backgroundColor": "#3397E1",
+        }
+      }
+      textStyle={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    />
+  </ReactNativeModal>
+  <Toast
+    fadeInDuration={500}
+    fadeOutDuration={500}
+    opacity={1}
+    position="bottom"
+    positionValue={150}
+    style={
+      Object {
+        "backgroundColor": "#3397E1",
+        "marginHorizontal": 16,
+      }
+    }
+    textStyle={
+      Object {
+        "color": "white",
+        "textAlign": "center",
+      }
+    }
+  />
+</Component>
+`;
+
+exports[`Screen >>> Case Notes Render Item Notes 1`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "padding": 8,
+      }
+    }
+  >
+    <Component>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      />
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#BABABA",
+        "flex": 1,
+        "height": 1,
+        "marginHorizontal": 8,
+      }
+    }
+  />
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "padding": 8,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "paddingRight": 4,
+          "width": "50%",
+        }
+      }
+    >
+      <Component
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#1F6CBC",
+              "borderRadius": 50,
+              "height": 36,
+              "width": 36,
+            },
+          ]
+        }
+      >
+        <Image
+          onLoad={[Function]}
+          source={
+            Object {
+              "uri": "data:image/gif;base64,undefined",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "borderRadius": 100,
+                "height": 36,
+                "resizeMode": "cover",
+                "width": 36,
+              },
+              Object {
+                "display": "none",
+              },
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "display": "flex",
+            }
+          }
+        />
+      </Component>
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#3397E1",
+              "flexWrap": "wrap",
+              "paddingHorizontal": 4,
+            }
+          }
+        >
+           
+        </Text>
+      </Component>
+    </Component>
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "paddingLeft": 4,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#3397E1",
+          }
+        }
+      >
+        Invalid date
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> Case Notes Render Item Notes 2`] = `""`;
+
+exports[`Screen >>> Case Notes Render list 1`] = `
+<FlatList
+  ListEmptyComponent={
+    <Component
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingTop": 617,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        case_notes_no_data
+      </Text>
+    </Component>
+  }
+  data={
+    Array [
+      Object {
+        "caseId": "1111111111",
+        "notes": Object {
+          "content": "Lorem ipsum dolor",
+          "date": "2018-02-09T16:16:36+00:00",
+        },
+        "user": Object {
+          "email": "john.guest@gmail.com",
+          "firstName": "John",
+          "lastName": "Guest",
+          "name": "John",
+          "userId": "123456789",
+        },
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`Screen >>> Case Notes Render list 2`] = `<ItemNote />`;
+
+exports[`Screen >>> Case Notes Render list 3`] = `1`;
+
+exports[`Screen >>> Case Notes Render list empty 1`] = `
+<FlatList
+  ListEmptyComponent={
+    <Component
+      onLayout={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingTop": 617,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        case_notes_no_data
+      </Text>
+    </Component>
+  }
+  data={Array []}
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`Screen >>> Case Notes changeLayout 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes componentWillReceiveProps 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes componentWillReceiveProps 2`] = `undefined`;
+
+exports[`Screen >>> Case Notes mapStateToProps 1`] = `
+Object {
+  "type": "caseNotes/request",
+}
+`;
+
+exports[`Screen >>> Case Notes mapStateToProps 2`] = `
+Object {
+  "type": "postCaseNote/request",
+}
+`;
+
+exports[`Screen >>> Case Notes mapStateToProps 3`] = `
+Object {
+  "type": "notesUsers/request",
+}
+`;
+
+exports[`Screen >>> Case Notes onPress cancel 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes onPress checkbox 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes onPress send 1`] = `undefined`;
+
+exports[`Screen >>> Case Notes onPress send 2`] = `undefined`;

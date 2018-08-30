@@ -1,0 +1,819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> History Render history correctly 1`] = `
+<History
+  history={null}
+  requestHistory={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> History Render history view 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "#2B6697",
+      "flex": 1,
+      "flexDirection": "row",
+      "padding": 8,
+    }
+  }
+>
+  <FlatList
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;
+
+exports[`Screen >>> History Render item history 1`] = `undefined`;
+
+exports[`Screen >>> History Render item view 1`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,Picture1",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        J
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Task 1
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_done
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Juan Perez
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        2016-07-01 16:25:31
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> History Render item view 2`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,Picture1",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        J
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Task 2
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_paused
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Juan Perez
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        2016-07-01 16:25:31
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> History Render item view 3`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,Picture1",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        J
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Task 2
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_inprogress
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Juan Perez
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        2016-07-01 16:25:31
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> History Render item view 4`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,Picture1",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        J
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Task 2
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_cancelled
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Juan Perez
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        2016-07-01 16:25:31
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> History Render item view 5`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,Picture1",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        J
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      >
+        Task 2
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_ruteado
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Juan Perez
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        2016-07-01 16:25:31
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;
+
+exports[`Screen >>> History Render item view 6`] = `
+<CardView>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 4,
+      }
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 5,
+            "height": 50,
+            "justifyContent": "center",
+            "marginHorizontal": 16,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "#1F6CBC",
+          },
+        ]
+      }
+    >
+      <Image
+        borderRadious={5}
+        onLoad={[Function]}
+        source={
+          Object {
+            "uri": "data:image/gif;base64,",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 50,
+              "resizeMode": "cover",
+              "width": 50,
+            },
+            Object {
+              "display": "none",
+            },
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "display": "flex",
+            "fontSize": 25,
+            "fontWeight": "bold",
+          }
+        }
+      />
+    </Component>
+    <Component
+      style={
+        Object {
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 12,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        history_activity_status_done
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#000",
+          }
+        }
+      >
+        Invalid date
+      </Text>
+    </Component>
+  </Component>
+</CardView>
+`;

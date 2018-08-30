@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Case Information render Case Information correctly 1`] = `
+<CaseInformation
+  caseClaimRequest={[Function]}
+  caseInfoRequest={[Function]}
+  error={null}
+  info={
+    Object {
+      "case": Object {
+        "caseId": "123456678",
+        "caseTitle": "Case title for test",
+      },
+      "task": Object {
+        "taskId": "1234567890",
+        "taskTitle": "Task title for test",
+      },
+    }
+  }
+  parseValueCreator={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+/>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Expandable List View card for list render Item correctly 1`] = `
+<AnimatedComponent
+  style={
+    Object {
+      "overflow": "hidden",
+      "paddingBottom": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#3397E1",
+          "flex": 1,
+          "padding": 10,
+        }
+      }
+    />
+    <TouchableHighlight
+      activeOpacity={0.85}
+      delayPressOut={100}
+      onPress={[Function]}
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }
+      underlayColor="#f1f1f1"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../App/Assets/icons/arrowHeadUp.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 30,
+          }
+        }
+      />
+    </TouchableHighlight>
+  </Component>
+  <Component
+    style={
+      Object {
+        "padding": 10,
+        "paddingTop": 0,
+      }
+    }
+  />
+</AnimatedComponent>
+`;
+
+exports[`Test of Expandable List View card for list toggle function 1`] = `undefined`;

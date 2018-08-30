@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> searchBar Render searchBar 1`] = `
+<Component
+  style={
+    Object {
+      "opacity": 0.9,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    placeholder="activity_lists_search_action_hint"
+    placeholderTextColor="#BABABA"
+    returnKeyType="search"
+    style={
+      Object {
+        "color": "#eee",
+        "height": 40,
+        "marginHorizontal": 4,
+        "paddingHorizontal": 8,
+        "width": 200,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</Component>
+`;

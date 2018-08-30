@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Props coverage BodyDrawer >> renderHeader 1`] = `undefined`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderModal 1`] = `undefined`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderModalLogOut 1`] = `undefined`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderModalLogOut 2`] = `undefined`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderModalLogOut 3`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  animationType="none"
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "75%",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3397E1",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          menu_drawer_settings_item_Logout
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "height": 48,
+            "justifyContent": "center",
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          AreLogout
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CANCEL
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              OK
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderModalLogOut 4`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  animationType="none"
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "75%",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3397E1",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          menu_drawer_settings_item_Logout
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "height": 48,
+            "justifyContent": "center",
+            "padding": 15,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          AreLogout
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CANCEL
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              OK
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Navigation Props coverage BodyDrawer >> renderSubItems 1`] = `undefined`;
+
+exports[`Navigation Render connect navigation 1`] = `
+<AppNavigation
+  connectionChange={[Function]}
+  dispatch={[Function]}
+  isLoggedIn={true}
+  isUploadCase={false}
+  routeName="Test"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  syncUp={[Function]}
+  uploadCase={[Function]}
+/>
+`;
+
+exports[`Navigation Render stack navigation 1`] = `undefined`;
+
+exports[`Navigation mapStateToProps 1`] = `
+Object {
+  "payload": Object {
+    "isConnected": undefined,
+  },
+  "type": "net/connected/update",
+}
+`;
+
+exports[`Navigation mapStateToProps 2`] = `
+Object {
+  "payload": Object {
+    "status": undefined,
+  },
+  "type": "net/syncUp/request",
+}
+`;
+
+exports[`Navigation mapStateToProps 3`] = `
+Object {
+  "type": "net/syncUp/upload",
+}
+`;

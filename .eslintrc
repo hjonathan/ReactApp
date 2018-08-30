@@ -1,0 +1,127 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "airbnb",
+    "standard",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype",
+    "react",
+    "standard"
+  ],
+  "rules": {
+    "indent": [
+      1,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      1,
+      "double"
+    ],
+    "semi": [
+      1,
+      "always"
+    ],
+    "max-len": [
+      1,
+      {
+        "code": 120,
+        "comments": 80,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": false,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "one-var": [
+      1,
+      "consecutive"
+    ],
+    "prefer-const": [
+      0
+    ],
+    "prefer-destructuring": 1,
+    "object-curly-spacing": [
+      1,
+      "never"
+    ],
+    "no-underscore-dangle": [
+      1,
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "no-use-before-define": [
+      1,
+      {
+        "functions": true,
+        "classes": true
+      }
+    ],
+    "no-param-reassign": 0,
+    "no-cond-assign": [
+      "error",
+      "except-parens"
+    ],
+    "no-multi-assign": [
+      "error"
+    ],
+    "no-useless-return": 0,
+    "class-methods-use-this": 0,
+    "generator-star-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "array-callback-return": [
+      "error",
+      {
+        "allowImplicit": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-indent": [
+      1,
+      4
+    ],
+    "react/jsx-indent-props": [
+      1,
+      4
+    ],
+    "react/prop-types": 0,
+    "react/no-unused-state": "off",
+    "react/no-string-refs": 1
+  }
+}

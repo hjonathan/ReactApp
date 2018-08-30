@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Login Should call _errorViewForm method 1`] = `[Function]`;
+
+exports[`Screen >>> Login Should call _renderErrorPass method 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flexDirection": "column",
+      "justifyContent": "flex-end",
+      "marginHorizontal": 14,
+      "marginTop": 31,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../App/Assets/icons/error.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "justifyContent": "flex-end",
+        "margin": 5,
+        "marginTop": 2,
+        "resizeMode": "stretch",
+        "width": 20,
+      }
+    }
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../App/Assets/icons/redArrowError.png",
+      }
+    }
+    style={
+      Object {
+        "height": 12,
+        "marginRight": 7,
+        "marginTop": -9,
+        "resizeMode": "stretch",
+        "width": 12,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    adjustFontSizeToFit={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "black",
+        "borderTopColor": "red",
+        "borderTopWidth": 2,
+        "color": "white",
+        "fontSize": 12,
+        "marginTop": -3,
+        "opacity": 0.8,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+      }
+    }
+  >
+    nullPass
+  </Text>
+</Component>
+`;
+
+exports[`Screen >>> Login Should call _renderErrorUser method 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flexDirection": "column",
+      "justifyContent": "flex-end",
+      "marginHorizontal": 14,
+      "marginTop": 31,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../App/Assets/icons/error.png",
+      }
+    }
+    style={
+      Object {
+        "height": 20,
+        "justifyContent": "flex-end",
+        "margin": 5,
+        "marginTop": 2,
+        "resizeMode": "stretch",
+        "width": 20,
+      }
+    }
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../App/Assets/icons/redArrowError.png",
+      }
+    }
+    style={
+      Object {
+        "height": 12,
+        "marginRight": 7,
+        "marginTop": -9,
+        "resizeMode": "stretch",
+        "width": 12,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    adjustFontSizeToFit={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "black",
+        "borderTopColor": "red",
+        "borderTopWidth": 2,
+        "color": "white",
+        "fontSize": 12,
+        "marginTop": -3,
+        "opacity": 0.8,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+      }
+    }
+  >
+    nullUser
+  </Text>
+</Component>
+`;
+
+exports[`Screen >>> Login Should call renderDivider method 1`] = `[Function]`;
+
+exports[`Screen >>> Login Should call renderForm method 1`] = `[Function]`;
+
+exports[`Screen >>> Login Should call renderLogo method 1`] = `[Function]`;
+
+exports[`Screen >>> Login mapStateToProps 1`] = `
+Object {
+  "payload": Object {
+    "password": undefined,
+    "username": undefined,
+  },
+  "type": "login/request",
+}
+`;
+
+exports[`Screen >>> Login mapStateToProps 2`] = `
+Object {
+  "type": "userData/request",
+}
+`;
+
+exports[`Screen >>> Login mapStateToProps 3`] = `undefined`;
+
+exports[`Screen >>> Login mapStateToProps 4`] = `undefined`;
+
+exports[`Screen >>> Login mapStateToProps 5`] = `
+Promise {
+  "_40": 0,
+  "_55": null,
+  "_65": 0,
+  "_72": null,
+}
+`;
+
+exports[`Screen >>> Login mapStateToProps 6`] = `undefined`;

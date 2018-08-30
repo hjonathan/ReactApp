@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component >>> audio Render audio 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "width": "70%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "height": 38,
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "textAlign": "center",
+            }
+          }
+        >
+          selectAudioRecordDialogtitle
+        </Text>
+      </Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Icon
+          allowFontScaling={false}
+          name="clear"
+          size={12}
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 28,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "padding": 16,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="fiber-manual-record"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          recordAudioStringDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="stop"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          stopStringAudioDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="play-arrow"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          playStringAudioDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexWrap": "wrap",
+              "width": "33%",
+            },
+            Object {
+              "margin": 4,
+            },
+          ]
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="send"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          savedStringAudioDialog
+        </Text>
+      </Component>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> audio Render audio 2`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "width": "70%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "height": 38,
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "textAlign": "center",
+            }
+          }
+        >
+          selectAudioRecordDialogtitle
+        </Text>
+      </Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+      >
+        <Icon
+          allowFontScaling={false}
+          name="clear"
+          size={12}
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 28,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+          "padding": 16,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="fiber-manual-record"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          recordAudioStringDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="stop"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          stopStringAudioDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flexWrap": "wrap",
+            "width": "33%",
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="play-arrow"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          playStringAudioDialog
+        </Text>
+      </Component>
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexWrap": "wrap",
+              "width": "33%",
+            },
+            Object {
+              "margin": 4,
+            },
+          ]
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Component
+            style={
+              Object {
+                "backgroundColor": "#1F6CBC",
+                "borderRadius": 8,
+                "padding": 4,
+              }
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              name="send"
+              size={12}
+              style={
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 36,
+                }
+              }
+            />
+          </Component>
+        </TouchableOpacity>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          savedStringAudioDialog
+        </Text>
+      </Component>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> audio Render playButton 1`] = `undefined`;
+
+exports[`Component >>> audio Render playButton 2`] = `undefined`;
+
+exports[`Component >>> audio Render progressBar&Timer 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+    }
+  }
+>
+  <Component>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      00:00
+    </Text>
+  </Component>
+</Component>
+`;
+
+exports[`Component >>> audio Render progressBarAndroid 1`] = `null`;
+
+exports[`Component >>> audio Render progressBarAndroid 2`] = `null`;
+
+exports[`Component >>> audio Render recordButton 1`] = `undefined`;
+
+exports[`Component >>> audio Render recordButton 2`] = `undefined`;
+
+exports[`Component >>> audio Render renderHeader 1`] = `undefined`;
+
+exports[`Component >>> audio Render saveButton 1`] = `undefined`;
+
+exports[`Component >>> audio Render saveButton 2`] = `undefined`;
+
+exports[`Component >>> audio Render stopButton 1`] = `undefined`;
+
+exports[`Component >>> audio Render stopButton 2`] = `undefined`;

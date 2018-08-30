@@ -1,0 +1,1966 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> FormRender Check static navigationOptions 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <Icon
+    allowFontScaling={false}
+    name="arrow-back"
+    size={12}
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 24,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Screen >>> FormRender Render form correctly 1`] = `
+<FormRender
+  addUserId={[Function]}
+  assignment={
+    Array [
+      Object {
+        "test": "",
+      },
+    ]
+  }
+  changeAudioControls={[Function]}
+  changeAudioMenu={[Function]}
+  changeDataAvailable={[Function]}
+  changeRouted={[Function]}
+  changeSignature={[Function]}
+  clearFormRender={[Function]}
+  errorAssignment={null}
+  errorData={null}
+  errorNextStep={null}
+  errorRoute={null}
+  fileDownload={Object {}}
+  finishLoadWebView={[Function]}
+  isRouted={false}
+  loadMap=""
+  progressDownload={0}
+  requestRoute={[Function]}
+  route={null}
+  routeUsers={Array []}
+  selectAudio={[Function]}
+  sendSignature={[Function]}
+  setLocation={[Function]}
+  showAudioMenu={true}
+  showAudioPanel={true}
+  showDownload={true}
+  showSignature={true}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  working={true}
+/>
+`;
+
+exports[`Screen >>> FormRender closeDerivationModal 1`] = `undefined`;
+
+exports[`Screen >>> FormRender componentDidMount 1`] = `undefined`;
+
+exports[`Screen >>> FormRender componentWillReceiveProps 1`] = `undefined`;
+
+exports[`Screen >>> FormRender componentWillReceiveProps 2`] = `undefined`;
+
+exports[`Screen >>> FormRender getWhichDataToUse 1`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 1`] = `
+Object {
+  "type": "cases/routeCase/request",
+}
+`;
+
+exports[`Screen >>> FormRender mapStateToProps 2`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 3`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 4`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 5`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 6`] = `undefined`;
+
+exports[`Screen >>> FormRender mapStateToProps 7`] = `
+Object {
+  "type": "formRender/sendCoordinates",
+}
+`;
+
+exports[`Screen >>> FormRender mapStateToProps 8`] = `
+Object {
+  "type": "formRender/signature/show",
+}
+`;
+
+exports[`Screen >>> FormRender mapStateToProps 9`] = `
+Object {
+  "type": "formRender/sendSignature",
+}
+`;
+
+exports[`Screen >>> FormRender openSettings 1`] = `undefined`;
+
+exports[`Screen >>> FormRender renderAudioMenuModal 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <ContextMenu
+    type="audio"
+  />
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderAudioModal 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Audio />
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderDerivationModal 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  backdropType="blur"
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component>
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "justifyContent": "center",
+              "paddingTop": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      >
+        <FlatList
+          data={
+            Object {
+              "map": [Function],
+            }
+          }
+          disableVirtualization={false}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CANCEL_ACTIVITY_CASE_NOTES_ROUTE_CASE_DIALOG
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CONTINUE_LABEL_USER_ROUTE_SCREEN
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderDerivationModal 2`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  backdropType="blur"
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component>
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "justifyContent": "center",
+              "paddingTop": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      >
+        <FlatList
+          data={
+            Object {
+              "map": [Function],
+            }
+          }
+          disableVirtualization={false}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+        />
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CANCEL_ACTIVITY_CASE_NOTES_ROUTE_CASE_DIALOG
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              CONTINUE_LABEL_USER_ROUTE_SCREEN
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderDerivationModal 3`] = `undefined`;
+
+exports[`Screen >>> FormRender renderDerivationModal 4`] = `undefined`;
+
+exports[`Screen >>> FormRender renderList 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "flex": 1,
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    loading_text
+  </Text>
+</Component>
+`;
+
+exports[`Screen >>> FormRender renderList 2`] = `
+<FlatList
+  data={
+    Object {
+      "map": [Function],
+    }
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
+
+exports[`Screen >>> FormRender renderList 3`] = `
+<ManualAssignment
+  addUserId={[MockFunction]}
+  data={
+    Object {
+      "taskAssignType": "MANUAL",
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> FormRender renderList 4`] = `
+<ItemAssignment
+  addUserId={[MockFunction]}
+  data={
+    Object {
+      "taskAssignType": "",
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> FormRender renderList 5`] = `"1"`;
+
+exports[`Screen >>> FormRender renderMapViewModal 1`] = `undefined`;
+
+exports[`Screen >>> FormRender renderMapViewModal 2`] = `undefined`;
+
+exports[`Screen >>> FormRender renderMapViewModal 3`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Icon
+            allowFontScaling={false}
+            name="done"
+            size={12}
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 28,
+              }
+            }
+          />
+        </TouchableOpacity>
+      </Component>
+      <Component>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          selectLocationDialogtitle
+        </Text>
+      </Component>
+      <Component>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Icon
+            allowFontScaling={false}
+            name="clear"
+            size={12}
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 28,
+              }
+            }
+          />
+        </TouchableOpacity>
+      </Component>
+    </Component>
+    <MapViewer />
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderMapViewModal 4`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "backgroundColor": "#3397E1",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 8,
+        }
+      }
+    >
+      <Component>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Icon
+            allowFontScaling={false}
+            name="done"
+            size={12}
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 28,
+              }
+            }
+          />
+        </TouchableOpacity>
+      </Component>
+      <Component>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          selectLocationDialogtitle
+        </Text>
+      </Component>
+      <Component>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+        >
+          <Icon
+            allowFontScaling={false}
+            name="clear"
+            size={12}
+            style={
+              Object {
+                "color": "#FFF",
+                "fontSize": 28,
+              }
+            }
+          />
+        </TouchableOpacity>
+      </Component>
+    </Component>
+    <MapViewer />
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderModalDataAvailable 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component>
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "justifyContent": "center",
+              "paddingTop": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          dialog_chose_data_title
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          dialog_chose_data_description
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_no
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_yes
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderModalDataAvailable 2`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={false}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component>
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "justifyContent": "center",
+              "paddingTop": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          dialog_chose_data_title
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          dialog_chose_data_description
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_no
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_yes
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderModalDataAvailable 3`] = `undefined`;
+
+exports[`Screen >>> FormRender renderModalDataAvailable 4`] = `undefined`;
+
+exports[`Screen >>> FormRender renderModalDataAvailable 5`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 5,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Component>
+      <Component
+        style={
+          Object {
+            "backgroundColor": "#3397E1",
+            "height": 48,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "justifyContent": "center",
+              "paddingTop": 10,
+              "textAlign": "center",
+            }
+          }
+        >
+          dialog_chose_data_title
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          dialog_chose_data_description
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_no
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              dialog_generic_yes
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderModalDownload 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "padding": 22,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "paddingBottom": 25,
+          "paddingRight": 15,
+          "paddingTop": 25,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        name="download"
+        size={12}
+        style={
+          Object {
+            "color": "#BABABA",
+            "fontSize": 64,
+          }
+        }
+      />
+    </Component>
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "width": 150,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "paddingBottom": 5,
+            "paddingTop": 5,
+          }
+        }
+      >
+        TestFile
+      </Text>
+      <ProgressBar
+        backgroundAnimationDuration={2500}
+        backgroundColor="#148cF0"
+        backgroundColorOnComplete="#6CC644"
+        barAnimationDuration={500}
+        barEasing="linear"
+        borderColor="#C8CCCE"
+        borderRadius={6}
+        borderWidth={1}
+        height={15}
+        maxValue={100}
+        onComplete={null}
+        value={0}
+        width={150}
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "paddingBottom": 5,
+            "paddingTop": 5,
+          }
+        }
+      />
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderModalSignature 1`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Signature
+    addUserId={[MockFunction]}
+    assignment={
+      Object {
+        "map": [Function],
+      }
+    }
+    changeDataAvailable={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            false,
+          ],
+          Array [
+            false,
+          ],
+          Array [
+            false,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    changeRouted={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            false,
+          ],
+          Array [
+            false,
+          ],
+          Array [
+            false,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    changeSignature={[MockFunction]}
+    clearFormRender={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    finishLoadWebView={[MockFunction]}
+    navigation={
+      Object {
+        "dispatch": [Function],
+        "state": Object {
+          "params": Object {
+            "payload": Object {
+              "webView": Object {
+                "injectJavaScript": [MockFunction],
+              },
+            },
+            "state": Object {
+              "User": Object {},
+            },
+          },
+        },
+      }
+    }
+    requestRoute={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "TAS_UID": undefined,
+              "app_uid": undefined,
+              "del_index": undefined,
+              "tasks": Array [],
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    sendSignature={[MockFunction]}
+    setLocation={[MockFunction]}
+    showSignature={true}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderSettingsModal 1`] = `undefined`;
+
+exports[`Screen >>> FormRender renderSettingsModal 2`] = `undefined`;
+
+exports[`Screen >>> FormRender renderSettingsModal 3`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "70%",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3397E1",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          app_name
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          map_no_location_enabled
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              Cancel
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              action_settings
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender renderSettingsModal 4`] = `
+<ReactNativeModal
+  animationIn="slideInUp"
+  animationInTiming={300}
+  animationOut="slideOutDown"
+  animationOutTiming={300}
+  avoidKeyboard={false}
+  backdropColor="black"
+  backdropOpacity={0.6}
+  backdropTransitionInTiming={300}
+  backdropTransitionOutTiming={300}
+  hideModalContentWhileAnimating={false}
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalShow={[Function]}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  useNativeDriver={false}
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "70%",
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#3397E1",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#FFF",
+              "fontSize": 18,
+            }
+          }
+        >
+          app_name
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFF",
+            "height": 48,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          map_no_location_enabled
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 48,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#E14333",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              Cancel
+            </Text>
+          </TouchableOpacity>
+        </Component>
+        <Component
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#1FBC99",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              action_settings
+            </Text>
+          </TouchableOpacity>
+        </Component>
+      </Component>
+    </Component>
+  </Component>
+</ReactNativeModal>
+`;
+
+exports[`Screen >>> FormRender setLocation 1`] = `undefined`;
+
+exports[`Screen >>> FormRender setLocation 2`] = `undefined`;
+
+exports[`Screen >>> FormRender spreadWebView 1`] = `undefined`;
+
+exports[`Screen >>> FormRender validateGPS 1`] = `undefined`;
+
+exports[`Screen >>> FormRender workingDialog 1`] = `
+<ProgressDialog
+  message="login_dialog_loading_title"
+  title="login_dialog_loading_title"
+  visible={true}
+/>
+`;

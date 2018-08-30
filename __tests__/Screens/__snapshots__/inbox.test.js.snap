@@ -1,0 +1,588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Inbox Check static navigationOptions 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <Icon
+    allowFontScaling={false}
+    name="bars"
+    size={12}
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 20,
+      }
+    }
+  />
+</TouchableOpacity>
+`;
+
+exports[`Screen >>> Inbox Render inbox correctly 1`] = `
+<Inbox
+  caseOffline={[Function]}
+  cases={
+    Object {
+      "todo": Object {
+        "response": Array [
+          Object {
+            "prevUser": Object {
+              "userId": "00001",
+            },
+          },
+          Object {
+            "prevUser": Object {
+              "userId": "00002",
+            },
+          },
+        ],
+      },
+      "users": Array [
+        Object {
+          "userId": "00001",
+          "userPhoto": "picture1",
+        },
+        Object {
+          "userId": "00002",
+          "userPhoto": "picture2",
+        },
+      ],
+    }
+  }
+  casesTodoRequest={[Function]}
+  forceRefresh={false}
+  isConnected={true}
+  list="Inbox"
+  reset={[Function]}
+  routeName={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  userInfoRequest={[Function]}
+/>
+`;
+
+exports[`Screen >>> Inbox Should call goToNewCases method 1`] = `undefined`;
+
+exports[`Screen >>> Inbox Should call onRefresh method 1`] = `undefined`;
+
+exports[`Screen >>> Inbox Should call onRefresh method 2`] = `undefined`;
+
+exports[`Screen >>> Inbox Should call onRefresh method 3`] = `undefined`;
+
+exports[`Screen >>> Inbox Should call refresh method of FAB component 1`] = `undefined`;
+
+exports[`Screen >>> Inbox Should call refresh method of FlatList component 1`] = `
+<ItemList
+  isConnected={true}
+  parent={
+    Object {
+      "caseOffline": [MockFunction],
+      "casesTodoRequest": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {
+              "search": "",
+            },
+          ],
+          Array [
+            Object {
+              "search": "",
+            },
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {
+              "search": "",
+            },
+          ],
+          Array [
+            Object {
+              "search": "abc",
+            },
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+          Array [
+            Object {},
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+      "isConnected": true,
+      "navigation": Object {
+        "dispatch": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "routeName": "NewCases",
+                "type": "Navigation/NAVIGATE",
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "setParams": [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+            Array [
+              Object {
+                "searchInput": false,
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "state": Object {
+          "params": Object {
+            "searchInput": null,
+          },
+          "routeName": "Draft",
+        },
+      },
+      "reset": [MockFunction] {
+        "calls": Array [
+          Array [],
+          Array [],
+          Array [],
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+      "routeName": [MockFunction] {
+        "calls": Array [
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+          Array [
+            "Draft",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "userInfoRequest": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "size": "1",
+              "user": Object {
+                "ids": Array [
+                  "00001",
+                  "00002",
+                ],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+/>
+`;
+
+exports[`Screen >>> Inbox Should call refresh method of FlatList component 2`] = `undefined`;
+
+exports[`Screen >>> Inbox mapStateToProps 1`] = `
+Object {
+  "type": "cases/inbox/request",
+}
+`;
+
+exports[`Screen >>> Inbox mapStateToProps 2`] = `
+Object {
+  "type": "cases/userInfo/request",
+}
+`;
+
+exports[`Screen >>> Inbox mapStateToProps 3`] = `
+Object {
+  "type": "net/case/list",
+}
+`;
+
+exports[`Screen >>> Inbox mapStateToProps 4`] = `
+Object {
+  "type": "cases/routeName",
+}
+`;
+
+exports[`Screen >>> Inbox mapStateToProps 5`] = `
+Object {
+  "type": "cases/reset",
+}
+`;

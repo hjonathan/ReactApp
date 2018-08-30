@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/app.001261dcacd8177d96ddf1ae31524f7b.css" />
+
+  <script src="static/js/manifest.d4953a284dd76f9b1eed.js"></script>
+  <script src="static/js/vendor.607832f5239eb1260b85.js"></script>
+  <script src="static/js/app.9ae10f8b5bbcf7633b17.js"></script>
+  <script>
+    var showForm = function (formUI) {
+
+      form = new myForm.MyForm({
+        model: {},
+        formUI: formUI,
+        el: '#app',
+        onSubmit: function (data) {
+          window.postMessage(JSON.stringify({ type: "submit", payload: data }));
+        }
+      });
+
+      form.render();
+    }
+
+  </script>
+  <title>Testing MyForm</title>
+</head>
+
+<body>
+  <div id="app">
+
+  </div>
+</body>
+
+</html>

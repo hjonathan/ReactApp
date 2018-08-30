@@ -1,0 +1,25 @@
+{
+  "application": {
+    "name": "Processmaker",
+    "senderID": "592781414011"
+  },
+  "server": "https://poc-1.processmaker.net",
+  "workspace": "workflowpoc1",
+  "lang": "en",
+  "clientId": "x-pm-local-client",
+  "clientSecret": "179ad45c6ce2cb97cf1029e212046e81",
+  "version": {
+    "number": "1.3.0.0",
+    "build": "2",
+    "gitHash": "89fc7e3"
+  },
+  "helpUrl": "http://wiki.processmaker.com/BPM/Mobile",
+  "folders": {
+    "FormRender": [
+      "Steps",
+      "NextSteps",
+      "Data",
+      "Forms"
+    ]
+  }
+}

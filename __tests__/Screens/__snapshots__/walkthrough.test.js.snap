@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen >>> Walkthrough Render WalkThrough correctly 1`] = `
+<Component
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Swiper
+      onChangeIndex={[Function]}
+      onMomentumScrollBegin={[Function]}
+    >
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 16,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/build1.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/build2.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/build3.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/build4.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+        </Component>
+        <Component
+          style={
+            Object {
+              "paddingHorizontal": 28,
+              "paddingVertical": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "paddingBottom": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_title_1
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_text_1
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 16,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/run1.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/run2.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/run3.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+        </Component>
+        <Component
+          style={
+            Object {
+              "paddingHorizontal": 28,
+              "paddingVertical": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "paddingBottom": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_title_2
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_text_2
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 16,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/report1.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/report2.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/report3.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/report4.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/report5.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+        </Component>
+        <Component
+          style={
+            Object {
+              "paddingHorizontal": 28,
+              "paddingVertical": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "paddingBottom": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_title_3
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_text_3
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            },
+            Object {
+              "width": 750,
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Object {
+              "alignItems": "center",
+              "padding": 16,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/optimize1.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+          />
+          <Image
+            source={
+              Object {
+                "testUri": "../../../App/Assets/drawable/optimize2.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 180,
+                  "width": 180,
+                },
+                Object {
+                  "display": "none",
+                },
+              ]
+            }
+          />
+        </Component>
+        <Component
+          style={
+            Object {
+              "paddingHorizontal": 28,
+              "paddingVertical": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "paddingBottom": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_title_4
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_text_4
+          </Text>
+        </Component>
+      </Component>
+      <Component
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "padding": 32,
+            "width": 750,
+          }
+        }
+      >
+        <Component
+          style={
+            Object {
+              "margin": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "textAlign": "center",
+              }
+            }
+          >
+            activity_walkthrough_final_page_text_1
+          </Text>
+        </Component>
+        <Component
+          style={
+            Object {
+              "margin": 16,
+            }
+          }
+        >
+          <Button
+            backgroundColor="#1FBC99"
+            borderRadius={2}
+            buttonStyle={
+              Object {
+                "height": 38,
+                "width": 170,
+              }
+            }
+            fontSize={14}
+            fontWeight="bold"
+            onPress={[Function]}
+            raised={true}
+            title="LOGIN_BTN"
+          />
+        </Component>
+      </Component>
+    </Swiper>
+  </ScrollView>
+</Component>
+`;
+
+exports[`Screen >>> Walkthrough Render animation (first slide) 1`] = `undefined`;
+
+exports[`Screen >>> Walkthrough Render animation (fourth slide) 1`] = `undefined`;
+
+exports[`Screen >>> Walkthrough Render animation (second slide) 1`] = `undefined`;
+
+exports[`Screen >>> Walkthrough Render animation (third slide) 1`] = `undefined`;
+
+exports[`Screen >>> Walkthrough WalkThrough navigates 1`] = `undefined`;
+
+exports[`Screen >>> Walkthrough WalkThrough navigates 2`] = `undefined`;
+
+exports[`Screen >>> Walkthrough WalkThrough navigates 3`] = `undefined`;
+
+exports[`Screen >>> Walkthrough WalkThrough navigates 4`] = `undefined`;

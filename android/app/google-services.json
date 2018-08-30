@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089315299166",
+    "project_id": "processmakerint"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089315299166:android:6cb65e632148d6d5",
+        "android_client_info": {
+          "package_name": "com.processmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089315299166-tabtb4mchv0equ1ln8c0c7nu3fej9k8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.processmaker",
+            "certificate_hash": "f242da7d16e16682eecf3cb40bad6be021272e6d"
+          }
+        },
+        {
+          "client_id": "1089315299166-dti0kiiqfmmvqmd0fccpcu63nh6hjqfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYZqtNxWr23ePdB-Sm4AMfT_E0ujUfnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
