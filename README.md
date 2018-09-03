@@ -1,4 +1,4 @@
-# ProcessMaker React-Native App    
+# React-Native App    
      
 **Getting started:**     
 > Clone the repository: develop branch.     
